@@ -54,6 +54,20 @@ editor:
 
 <h4>^2,3^ Korea Information Society Development Institute</h4>
 
+## Research Background
+
+<hr>
+
+-   DT
+
+-   DT ecosystem 산업 분류 어려움
+
+## Research Goal
+
+<hr>
+
+-   DT ecosystem 분석
+
 ## Data comes from
 
 <hr>
@@ -196,6 +210,10 @@ boxplot(ven_cap[ven_cap>0 & ven_cap<100])
 <hr>
 
 ![](img/node_edge.png){fig-align="center"}
+
+## Theoretical foundation
+
+-   Realtedness
 
 ## Biz space (Total)
 
