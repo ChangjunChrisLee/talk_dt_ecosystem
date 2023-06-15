@@ -29,16 +29,16 @@ editor:
 
 <br>
 
-<h1>Exploration of Digital Ecosystem</h1>
+<h2>`디지털전환` 스타트업 생태계</h2>
 
-<h2>with 혁신의숲 Start-up data</h2>
+<h2>`투자유치` 주요 요인들에 대한 탐색적 분석</h2>
 
 <hr>
 
 <br>
 
 <h5>2023 정보통신정책학회\
-`하계세미나`</h5>
+`글로벌 워크샵`</h5>
 
 2023-06-23
 
@@ -48,32 +48,141 @@ editor:
 
 <br>
 
-<h3>Changjun Lee ^1^, Kyoungsun Lee ^2^, Yuri Park ^3^</h3>
+<br>
 
-<h4>^1^ Media & Social Informatics. Hanyang University ERICA</h4>
+<h4>
 
-<h4>^2,3^ Korea Information Society Development Institute</h4>
+이창준 ^1^, 이경선 ^2^, 박유리 ^3^
 
-## Research Background
+</h3>
+
+<h5>
+
+^1^ Media & Social Informatics. Hanyang University ERICA
+
+</h4>
+
+<h5>
+
+^2,3^ Korea Information Society Development Institute
+
+</h4>
+
+## What is Digital Transformation?
 
 <hr>
 
--   DT
+> **DT(Digital Transformation)**는 비즈니스의 모든 영역에 디지털 기술을
+> 통합하는 것
 
--   DT ecosystem 산업 분류 어려움
+-   이러한 근본적인 변화는 비즈니스 운영 방식과 고객에게 가치를 제공하는
+    방식을 근본적으로 재고하게 함
+
+-   이는 단순한 기술적 변화가 아니라 조직이 지속적으로 현 상태에 도전하고
+    실험하고 실패에 익숙해져야 하는 문화적 변화
+
+-   전통적인 비즈니스 방법 및 프로세스에서 근본적인 패러다임 전환
+
+<br>
+
+![](img/dt_concept.jpg){fig-align="center" width="800"}
+
+## Motivation
+
+<hr>
+
+-   다양한 기술이 접목되며 빠르게 디지털화가 진행 중인 제조업과 달리
+    [**서비스업의 디지털 전환은 더디게 진행**]{.underline}
+
+    -   우리나라 서비스 산업은 낮은 생산성, 규모의 영세성이라는 구조적
+        문제로 기술 혁신과는 다소 거리가 있음
+
+<br>
+
+-   그러나 코로나19로 **디지털 전환이 선택이 아닌 생존의 문제**로 부상하며
+    일부 분야, 일부 기업들을 시작으로 **서비스 산업에서도 다양한 DT
+    시도**들이 진행
+
+    -   다양한 서비스 분야에서 디지털 기술을 접목하기 위한 기술기반
+        기업들이 등장하며 디지털화가 진행
+
+    -   디지털 기술의 접목으로 데이터가 수집, 축적되며 서비스 방식이
+        변화하고 새로운 가능성도 열리고 있음
+
+<br>
+
+-   디지털 대전환을 우리의 기회로 활용하기 위해 **서비스 산업의 디지털 전환
+    현황을 진단하고 이를 촉진하기 위한 연구가 필요**
+
+    -   DT는 주로 스타트업 생태계 내에서 새로운 비즈니스 모델을 통한 혁신이
+        많이 일어나는 분야이기 때문에 스타트업 생태계 다이내믹스에 대한
+        분석이 필요함
+
+## Why is DT Industry Classification Difficult?
+
+<hr>
+
+1.  **다양한 정도의 디지털 성숙도**
+
+    -   서로 다른 산업, 심지어 같은 산업 내의 비즈니스도 서로 다른 디지털
+        성숙도 단계로 존재.
+
+    -   획일적인 분류 시스템(one-size-fits-all classification)은 이러한
+        변형을 잘못 나타낼 가능성이 있음.
+
+2.  **기술의 급속한 발전**
+
+    -   디지털 환경은 빠르게 변화.
+
+    -   기술 혁신은 디지털 변환의 특성과 범위를 지속적으로 변경하여 고정된
+        분류 시스템을 빠르게 도태시킴.
+
+3.  **다른 DT 접근 방식**
+
+    -   같은 산업에 속한 회사들도 DT에 대한 접근 방식이 크게 다를 수 있음.
+
+4.  **고유한 비즈니스 모델**
+
+    -   디지털 혁신은 전통적인 산업 분류를 거부하는 새롭고 고유한 비즈니스
+        모델을 지속적으로 탄생시킴(Mutation).
 
 ## Research Goal
 
 <hr>
 
--   DT ecosystem 분석
+<br>
+
+-   **디지털 트랜스포메이션 생태계 분석을 위한 프레임 개발**
+
+    -   산업: 디지털 트랜스포메이션 산업 구분
+
+    -   기술 융합: 디지털 트랜스포메이션 비즈니스 모델과 기술의 융합 추이
+        분석
+
+    -   조직: 디지털 트랜스포메이션 기업의 조직 다이내믹스 분석
+
+<br>
+
+-   **산업, 기술 융합, 조직의 세 가지 프레임을 활용한 투자 유치 예측 모델
+    개발**
+
+    -   투자 유치 예측 모델 비교 및 성능 평가
+
+    -   디지털 트랜스포메이션 생태계에서 투자 유치에 끼치는 주요 요인 탐색
 
 ## Data comes from
 
 <hr>
 
-![](img/inn_for.png){fig-align="center"} <!-- ::: footer -->
-<!-- [www.innoforest.co.kr](https://www.innoforest.co.kr/) --> <!-- ::: -->
+### 혁신의숲([www.innoforest.co.kr](https://www.innoforest.co.kr/))
+
+![](img/inn_for.png){fig-align="center"}
+
+## Data comes from
+
+<hr>
+
+![](img/inn_for_2.png){fig-align="center"}
 
 ## About data {.scrollable}
 
@@ -110,11 +219,11 @@ editor:
 | `평균구매횟수`  | 기업 고유 아이디, 기업명, 소비자거래 기준월,          |
 |                 | 평균구매주기구분, 구매건수                            |
 +-----------------+-------------------------------------------------------+
-| `성             | 기업 고유 아이디, 기업명, 소비자거래 기준월,          |
-|   별연령별거래` | 성별구분, 나이구분, 거래점유율                        |
+| `               | 기업 고유 아이디, 기업명, 소비자거래 기준월,          |
+| 성별연령별거래` | 성별구분, 나이구분, 거래점유율                        |
 +-----------------+-------------------------------------------------------+
-| `가             | 기업 고유 아이디, 기업명, 소비자거래 기준월,          |
-|   족구성별거래` | 가구속성구분, 거래점유율                              |
+| `               | 기업 고유 아이디, 기업명, 소비자거래 기준월,          |
+| 가족구성별거래` | 가구속성구분, 거래점유율                              |
 +-----------------+-------------------------------------------------------+
 | `소득별거래`    | 기업 고유 아이디, 기업명, 소비자거래 기준월,          |
 |                 | 소득구분, 거래점유율                                  |
@@ -124,8 +233,8 @@ editor:
 +-----------------+-------------------------------------------------------+
 | `소셜`          | 기업 고유 아이디, 버즈시작일, 버즈량, SRS             |
 +-----------------+-------------------------------------------------------+
-| `투             | 투자유치이력 아이디, 기업 고유 아이디, 기업명,        |
-|    자 유치이력` | 투자단계, 참여 투자자,                                |
+| `투자유치이력`  | 투자유치이력 아이디, 기업 고유 아이디, 기업명,        |
+|                 | 투자단계, 참여 투자자,                                |
 |                 |                                                       |
 |                 | 투자일자, 투자금액                                    |
 +-----------------+-------------------------------------------------------+
@@ -149,26 +258,6 @@ editor:
 |                 | 고용전체수                                            |
 +-----------------+-------------------------------------------------------+
 
-## Geographical distribution
-
-<hr>
-
-```{r}
-#| echo: false
-#| output-location: slide
-#| layout: [100]
-#| fig-asp: 1
-
-
-library(leaflet)
-load("data/geo_df.RData")
-leaflet(geo_df) %>%
-  setView(lng=126.9784, lat=37.566, zoom=12) %>%
-  addProviderTiles("CartoDB.Positron") %>%
-  addCircles(lng=~lng, lat=~lat, color='#006633', label=~label)
-
-```
-
 ## 사업 카테고리 분포
 
 <hr>
@@ -181,11 +270,11 @@ leaflet(geo_df) %>%
 
 ![](img/tab_tree.png){fig-align="center"}
 
-## 누적 투자 유치 금액(단위: 일 억원)
+## 누적 투자 유치 금액
 
 <hr>
 
--   혁신의숲 DB 기업의 누적 투자 유치 금액에 대한 분포
+-   혁신의숲 DB 기업의 누적 투자 유치 금액에 대한 분포(단위: 일억원)
 
     -   왼쪽은 이상치를 제거하기 전, 오른쪽은 제거 후
     -   디지털 전환 기업들은 주로 5에서 40억 사이의 투자를 받았으며
@@ -205,117 +294,707 @@ boxplot(ven_cap)
 boxplot(ven_cap[ven_cap>0 & ven_cap<100])
 ```
 
-## 지식 공간
+## **디지털 트랜스포메이션 생태계 분석을 위한 프레임**
+
+<hr>
+
+<br>
+
+<br>
+
+<br>
+
+### 1. **`산업`:** 디지털 트랜스포메이션 산업 구분
+
+<br>
+
+### 2. `사업기술융합`: 디지털 트랜스포메이션 비즈니스 모델과 기술의 융합 추이 분석
+
+<br>
+
+### 3. `조직`: 디지털 트랜스포메이션 기업의 조직 다이내믹스 분석
+
+## 디지털 트랜스포메이션 `산업` 구분
+
+<hr>
+
+**Topic modelling**
+
+> 문서 모음에서 발생하는 추상적인 "주제"를 발견하기 위한 일종의 통계적
+> 모델링
+
+<br>
+
+**LDA** (Latent Dirichlet Allocation)
+
+> LDA는 텍스트의 각 청크(예: 문서 또는 문장)가 특정 주제 집합의 혼합이고
+> 문서의 각 단어가 문서의 주제 중 하나에 기인한다고 가정하는 생성 확률 모델
+
+<br>
+
+**토픽 모델링을 활용한 DT 생태계 산업 분류**
+
+-   비즈니스 모델과 기술이 융합된 디지털 생태계 안에서 산업을 분류하기 위해
+    토픽 모델링을 활용
+
+-   토픽 모델링의 가정: 문서는 여러 토픽의 분포로 존재, 토픽은 여러
+    문장(단어)의 분포로 존재
+
+    -   문서: 기업
+
+    -   문장(단어): 기업을 설명하는 문장(단어, 키워드)
+
+    -   토픽: 산업
+
+## 토픽 모델링 (LDA 상세) {.scrollable}
+
+<hr>
+
+The LDA model aims to find:
+
+-   **Document to topic distributions**: How likely each topic is for each
+    document.
+
+-   **Word to topic distributions**: How likely each word is for each
+    topic.
+
+<br>
+
+Mathematically, these distributions can be represented as follows:
+
+-   **Document to topic distribution**: For each document $d$, there's a
+    multinomial distribution over topics $θ_d$.
+
+$$
+θ_d \sim Dirichlet(α)
+$$ \> Here, $α$ is a K-dimensional vector, where K is the number of topics.
+
+$$
+θ_d \sim \beta_1 Topic_1 + \beta_2 Topic_2 + ... + \beta_k Topic_k
+$$
+
+<br>
+
+-   **Word to topic distribution**: For each topic $k$, there's a
+    multinomial distribution over words $β_k$.
+
+$$
+β_k \sim Dirichlet(δ)
+$$
+
+> Here, $δ$ is a W-dimensional vector, where W is the number of words in
+> the vocabulary.
+
+$$
+β_k \sim \gamma_1 Word_1 + \gamma_2 Word_2 + ...+ \gamma_k Word_k
+$$
+
+<br>
+
+Given these distributions, each word $w_{di}$ in each document $d$ is
+generated in the following way:
+
+-   Choose a topic $z_{di}$ from the document's multinomial distribution of
+    topics.
+
+$$
+z_{di} \sim Multinomial(θ_d)
+$$
+
+<br>
+
+-   Choose a word from the topic's multinomial distribution of words.
+
+$$
+w_{di} \sim Multinomial(β_{z_{di}})
+$$
+
+<br>
+
+The goal is to learn the hidden topic structure $θ_d$ and $β_k$ that likely
+generated the observed collection of documents.
+
+## `토픽모델링`을 활용한 DT생태계 산업 구분 {.scrollable}
+
+<hr>
+
+-   데이터 내 기업 설명을 활용하여 LDA 진행
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+
+library(tidyverse)
+load("data/corp.RData")
+knitr::kable(corp %>% 
+               select(기업명, 기업설명) %>% 
+               head(20))
+  
+  
+```
+
+## `토픽모델링`을 활용한 DT생태계 산업 구분
+
+<hr>
+
+-   특수문자 제거, 대문자 통일, 명사 추출 등의 텍스트 전처리 과정..
+
+-   최적 토픽 수 정하기: `k = 20개`
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+#| fig-align: center
+
+# 2. 최적 토픽 수 정하기
+library(ldatuning)
+load("data/LDA_model_saved.RData")
+FindTopicsNumber_plot(models)
+```
+
+-   20개의 토픽으로 베타와 감마 값들을 추정한 LDA 모델 결과
+
+    -   Beta: 토픽(산업)별 단어(키워드) 확률
+
+    -   gamma: 문서(기업)별 토픽(산업) 확률
+
+## `토픽모델링`을 활용한 DT생태계 산업 구분
+
+<hr>
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+#| fig.width: 10
+#| fig.height: 5
+#| fig.dpi: 400
+#| fig-align: center
+
+library(tidyverse)
+library(tidytext)
+library(stringr)
+library(textclean)
+library(scales)
+
+load("data/top_term_topic.RData")
+g1 <- ggplot(top_term_topic,
+       aes(x = reorder_within(term, beta, topic),
+           y = beta,
+           fill = factor(topic))) +
+  geom_col(show.legend = F) +
+  facet_wrap(~ topic, scales = "free", ncol = 7) +
+  coord_flip() +
+  scale_x_reordered() +
+  scale_y_continuous(n.breaks = 4,
+                     labels = number_format(accuracy = .01)) +
+  labs(x = NULL) 
+
+g1
+
+```
+
+## DT생태계 산업별 `키워드`
+
+<hr>
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+#| fig.width: 10
+#| fig.height: 5
+#| fig.dpi: 400
+#| fig-align: center
+
+load("data/count_topic_word.RData")
+ggplot(count_topic_word,
+       aes(x = reorder(topic_name, n),
+           y = n,
+           fill = topic_name)) +
+  geom_col(show.legend = F) +
+  coord_flip() +
+  geom_text(aes(label = n) , # 문서 빈도 표시
+            hjust = -0.2) + # 막대 밖에 표시
+  geom_text(aes(label = term), # 주요 단어 표시
+            hjust = 1.03, # 막대 안에 표시
+            col = "white", # 색깔
+            fontface = "bold", # 두껍게
+            family = "nanumgothic") + # 폰트
+  scale_y_continuous(expand = c(0, 0), # y축-막대 간격 줄이기
+                     limits = c(0, 510)) + # y축 범위
+  labs(x = NULL) + ylab("")
+```
+
+## DT생태계 산업별 `키워드` {.scrollable}
+
+<hr>
+
+-   16번 주제(산업)의 세부 기업 설명 내용: Gamma 내림차순 정렬
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+
+load("data/corp_topic_arr.RData")
+
+knitr::kable(
+  corp_topic_arr %>%
+    filter(topic == 16) %>%
+    head(20) %>%
+    select(기업명, 기업설명)
+)
+```
+
+## DT생태계 산업별 `키워드` {.scrollable}
+
+<hr>
+
+-   20번 주제(산업)의 세부 기업 설명 내용: Gamma 내림차순 정렬
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+
+load("data/corp_topic_arr.RData")
+
+knitr::kable(
+  corp_topic_arr %>%
+    filter(topic == 20) %>%
+    head(20) %>%
+    select(기업명, 기업설명)
+)
+```
+
+## 산업별 제목 도출 {.scrollable}
+
+<hr>
+
+-   OpenAI의 `chatGPT 4.0` 활용 (아래 프롬프트 활용, 자동화)
+
+-   후보군으로 제시된 산업 이름 중 가장 적합한 것을 고르고 연구자 주관으로
+    수정
+
+> 아래 대표 기업들의 상세 설명을 대표할 수 있는 산업의 이름으로
+> 요약하시오. - 이때 산업별 키워드 X1, X2, X3, .. ,X10 를 활용하여 산업
+> 이름을 만드시오. - 산업 이름 후보로 5개 만드시오. - 대표 기업 30개의 상세
+> 설명 열거..
+
+**최종 산업별 이름 도출**
+
+::: callout-note
+## 산업 이름
+
+1\. 헬스케어, 식품, 화장품 커머스 및 기술 서비스 산업
+
+2\. 신약 개발과 디지털 기술 활용의 면역 및 난치질환 치료 산업
+
+3\. 스마트 제조 기술과 인공지능 활용의 판매 및 전기 인프라 산업
+
+4\. 스마트 소프트웨어와 위치 기반 숙박 및 여행 서비스 중개 산업
+
+5\. 웨어러블과 의약품 기반 브랜드 커머스 및 판매 산업
+
+6\. 온라인 결제, 커머스와 자율주행 기술 산업
+
+7\. 빅데이터 분석 및 보안 기반 사업 솔루션 산업
+
+8\. 인공지능 및 IOT 기반 교육과 유통 콘텐츠 시스템 산업
+
+9\. 패션, 뷰티 및 헬스 중심의 디지털 콘텐츠 및 정보 시스템 산업
+
+10\. 글로벌 정보 및 데이터 관리를 위한 IT 및 이커머스 컨설팅 산업
+
+11\. 디지털 기반 온·오프라인 커뮤니티 및 마케팅 지원 산업
+
+12\. 차량관리, 로봇 기술, 진단 제품 제조 및 미디어 산업
+
+13\. 메타 교육, 쇼핑 및 용품 관리, 영어 방문서비스 산업
+
+14\. 온라인 공유 및 협업 중심의 비교-구매 커머스
+
+15\. 디지털 이커머스, 반려동물 관리, IOT 제조 및 부동산 중개 스타트업 산업
+
+16\. 모바일 게임과 VR을 활용한 맞춤형 미디어 및 공간 기획 산업
+
+17\. 비대면 교육 및 예약 서비스를 중심으로 한 브랜드 제품 유통 및
+소프트웨어 설계 산업
+
+18\. 블록체인 기반 가상자산 관리와 통합 거래 커뮤니티 산업
+
+19\. 전문 제조와 공급을 통한 친환경 테크놀로지 산업
+
+20\. 다양한 매체를 통한 콘텐츠 제작 및 영상 스트리밍 산업
+
+:::
+
+## 산업별 기업 {.scrollable}
+
+<hr>
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+#| fig-width: 16
+#| fig-height: 8
+#| fig-dpi: 400
+#| fig-align: center
+
+
+library(ggwordcloud)
+
+corp_topic_arr %>% 
+  select(기업명, gamma, topic_lab) %>% 
+  group_by(topic_lab) %>% 
+  slice_max(gamma, n = 10) %>% 
+  ggplot(aes(label = 기업명, size = gamma)) +
+  geom_text_wordcloud(seed = 1234) +
+  scale_radius(limits = c(0.01, 1), 
+               range = c(3, 30)) +
+  facet_wrap(~ topic_lab, scales = "free", ncol = 7) 
+  
+    
+```
+
+## 산업별 버즈
+
+<hr>
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+#| fig-width: 10
+#| fig-height: 5
+#| fig-dpi: 400
+#| fig-align: center
+
+
+load("data/buzz_topic.RData")
+buzz_topic %>% 
+  filter(!is.na(topic_lab)) %>% 
+  filter(buzz_vol < 100000) %>% 
+  group_by(topic_lab) %>% 
+  summarize(avg_buzz = mean(buzz_vol)) %>% 
+  arrange(-avg_buzz) %>% 
+  ggplot(aes(x = reorder(topic_lab, avg_buzz),
+             y = avg_buzz,
+             fill = topic_lab)) +
+  geom_col(show.legend = F) +
+  coord_flip() +
+  geom_text(aes(label = round(avg_buzz,0)) , # 문서 빈도 표시
+            hjust = -0.2) +
+  scale_y_continuous(expand = c(0, 0), # y축-막대 간격 줄이기
+                     limits = c(0, 900)) + # y축 범위
+  labs(x = NULL) +
+  ylab("평균 버즈량")
+```
+
+## 산업별 투자 단계 분포 {.scrollable}
+
+<hr>
+
+-   VC 별로 투자 시점, 투자 round, 투자 분야가 다름 
+
+-   돈이 몰릴 때 (투자가 일어날 때) 시장이 형성되는 경우가 많음
+
+-   향후 어떤 새로운 시장이 형성될 지에 대해 예측해 보기 위해서 투자가 일어나는 시기를 보고자 함
+
+-   SEED (~3억) , Pre-A (5~10억) 단계의 투자는 시장을 키우고 있는 단계
+
+## 산업별 투자 단계 분포 {.scrollable}
+
+<hr>
+
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+#| fig-width: 16
+#| fig-height: 8
+#| fig-dpi: 400
+#| fig-align: center
+
+load("data/corp_topic_cat.RData")
+corp_topic_cat %>% 
+  group_by(topic_lab) %>% 
+  count(vc_status) %>% 
+  filter(!is.na(vc_status)) %>% 
+  filter(vc_status != "C+") %>% 
+  ggplot(aes(x = reorder_within(topic_lab, n, vc_status), 
+             y = n)) +
+  geom_col(aes(fill = vc_status)) +
+  facet_wrap(~ vc_status, scales = "free", ncol = 2) +
+  coord_flip() +
+  scale_x_reordered() +
+  scale_y_continuous(n.breaks = 4,
+                     labels = number_format(accuracy = .01)) +
+  labs(x = NULL) + ylab("")
+```
+
+
+## 지식구조분석을 통한 산업생태계 `Tech-BM` 융합 분석
+
+<hr>
+
+### 지식구조 (knowledge Structure)
+
+-   지식 구조는 다양한 경제 활동 및 **지리적 위치 내에서 지식의 조직 및 분포**를 나타냄
+
+-   경제의 다양한 부문에서 지식이 어떻게 생성, 공유 및 활용되고 공간적 요인에 의해 어떻게 영향을 받는지 이해하는 것이 포함됨
+
+-   근접성, 연결성 및 접근성과 같은 요소를 고려하여 지식 생산, 혁신 및 확산의 공간적 패턴을 조사
+
+-   지식 클러스터 또는 혁신 허브는 기술 단지 또는 연구 센터와 같이 지식 집약적 활동이 집중되는 특정 지리적 영역에서 나타남
+
+-   지식 확산(spillover)은 한 위치 또는 산업에서 생성된 지식이 다른 위치 또는 산업에 이익이 되도록 유출되어 집적 효과로 이어질 때 발생
+
+-   지식의 지리적 위치는 연구 개발(R&D) 투자, 교육 기관, 숙련된 노동력의 가용성 및 인프라와 같은 요인의 영향을 받는다
+
+-   인적 자본, 사회적 네트워크 및 기관을 포함한 지역 및 지역 지식 자산은 지식 기반 산업을 유치하고 유지하는 데 중요한 역할을 함
+
+-   지식의 공간적 구성은 지식 집중도가 높은 지역이 지식 집약도가 낮은 지역에 비해 더 큰 경제 발전과 혁신을 경험하는 경향이 있기 때문에 지역적 격차에도 영향을 미침
+
+
+## 지식구조분석을 통한 산업생태계 `Tech-BM` 융합 분석
 
 <hr>
 
 ![](img/node_edge.png){fig-align="center"}
 
-## Theoretical foundation
 
--   Realtedness
 
-## Biz space (Total)
+## 지식구조분석을 통한 산업생태계 `Tech-BM` 융합 분석
+
+<hr>
+
+> 지식 구조 = 태그 구조
+
+<br>
+
+### 사업 모델: Business Tag 
+
+> TAG: 사업, 제품, 서비스, 시장 키워드 등
+
+<br>
+
+### 기술: Tech Tag
+
+> TAG: 기술, 전문 영역 키워드 등 
+
+<br>
+
+## 산업별 태그 구조 분석
+
+<hr>
+
+> 해당 산업에 속한 기업들의 태그 포트폴리오
+
+<hr>
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+
+
+library(treemapify)
+load("data/tag_df.RData")
+
+corp_topic_arr %>% 
+  select(topic, topic_lab) %>% 
+  filter(!is.na(topic)) %>% 
+  unique %>% 
+  arrange(topic) -> topic_table
+
+df <- corp_topic_arr %>% 
+  left_join(tag_df) %>% 
+  select(topic, contains("tag")) 
+  
+tag_by_topic <- function(topic_input){
+  
+  df %>% 
+    filter(topic == topic_input) %>%
+    select(-topic) %>% 
+    as.matrix %>% 
+    table %>% 
+    as.data.frame %>% 
+    arrange(desc(Freq)) %>% 
+    .[-1,] %>% 
+    setNames(c("Tag", "Freq")) %>% 
+    head(50) %>% 
+    ggplot( aes(area = Freq, fill = Freq, label=Tag)) +
+    geom_treemap()+
+    geom_treemap_text(colour = "white",
+                      place = "centre",
+                      size = 15,
+                      grow = TRUE) +
+    ggtitle(paste(topic_table$topic_lab[topic_input]))
+}
+
+```
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+#| fig-align: center
+
+tag_by_topic(1)
+
+```
+
+## 산업별 태그 구조 분석
+
+<hr>
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+#| fig-align: center
+
+tag_by_topic(2)
+
+```
+
+
+## 산업별 태그 구조 분석
+
+<hr>
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+#| fig-align: center
+
+tag_by_topic(3)
+
+```
+
+## 지식 구조의 Edge 영역: `Biz-Tech` space 
 
 <hr>
 
 ![](img/total_net.png){fig-align="center"}
 
-## Biz space (IT)
 
-<iframe src="net_viz/IT_tag_network.html" frameborder="0" width="160%" height="1000" scrolling="no" allowfullscreen>
+## 지식 구조의 Edge 영역: `Biz-Tech` space 
 
-</iframe>
+<hr>
 
-## Biz space (가사,돌봄)
+<iframe src="net_viz/total_tag_network.html" frameborder="0" width="160%" height="1000" scrolling="no" allowfullscreen>
 
-<iframe src="net_viz/가사_돌봄_tag_network.html" frameborder="0" width="160%" height="1000" scrolling="no" allowfullscreen>
 
 </iframe>
 
-## Biz space (공간,건설)
+## 산업별 `Biz-Tech` space 
 
-<iframe src="net_viz/공간_건설_tag_network.html" frameborder="0" width="160%" height="1000" scrolling="no" allowfullscreen>
+<hr>
 
-</iframe>
+**신약 개발과 디지털 기술 활용의 면역 및 난치질환 치료 산업**
 
-## Biz space (교육)
-
-<iframe src="net_viz/교육_tag_network.html" frameborder="0" width="160%" height="1000" scrolling="no" allowfullscreen>
+<iframe src="net_viz/topic_2_tag_network.html" frameborder="0" width="160%" height="1000" scrolling="no" allowfullscreen>
 
 </iframe>
 
-## Biz space (구인구직_프리랜싱)
+## 산업별 `Biz-Tech` space 
 
-<iframe src="net_viz/구인구직_프리랜싱_tag_network.html" frameborder="0" width="160%" height="1000" scrolling="no" allowfullscreen>
+<hr>
 
+**패션, 뷰티 및 헬스 중심의 디지털 콘텐츠 및 정보 시스템 산업**
+
+<iframe src="net_viz/topic_9_tag_network.html" frameborder="0" width="160%" height="1000" scrolling="no" allowfullscreen>
 </iframe>
 
-## Biz space (금융_보험_투자)
 
-<iframe src="net_viz/금융_보험_투자_tag_network.html" frameborder="0" width="160%" height="1000" scrolling="no" allowfullscreen>
+## `Biz-Tech` space 에서 연결, 가중연결, 매개, 위세, 근접 중심성 {.scrollable}
 
-</iframe>
+<hr>
 
-## Biz space (기계_장비_공정)
+-   **연결 (Degree)**: 그래프에서 한 노드가 직접적으로 연결된 다른 노드의 수: 그래프에서 해당 노드의 중요성을 간접적으로 나타낼 수 있음
 
-<iframe src="net_viz/기계_장비_공정_tag_network.html" frameborder="0" width="160%" height="1000" scrolling="no" allowfullscreen>
+-   **가중연결 (Weighted Degree)**: 가중 그래프에서 노드의 가중연결은 연결된 간선의 가중치의 합을 나타냄: 간선의 '강도' 또는 '중요성'을 고려한 노드의 연결 정도
 
-</iframe>
+-   **매개 중심성 (Betweenness Centrality)**: 그래프 내의 모든 노드 쌍 간의 최단 경로에 얼마나 자주 등장하는지를 나타냄: 높은 매개 중심성을 가진 노드는 정보의 흐름에 있어 '다리' 역할
 
-## Biz space (기타)
+-   **위세 중심성 (Eigenvector Centrality)**: 노드의 위세 중심성은 해당 노드에 직접적으로 연결된 다른 노드들의 중요성을 함께 고려한 것: 중요한 노드들과 많이 연결된 노드가 더 높은 위세 중심성을 가짐
 
-<iframe src="net_viz/기타_tag_network.html" frameborder="0" width="160%" height="1000" scrolling="no" allowfullscreen>
+-   **근접 중심성 (Closeness Centrality)**: 노드의 근접 중심성은 해당 노드가 그래프 내의 다른 모든 노드에 얼마나 '가깝게' 위치해 있는지를 나타냄: 여기서 '가깝다'는 것은 노드 간의 경로 길이를 의미하며, 즉 노드 간의 거리가 짧을수록 높은 근접 중심성을 가집니다.
 
-</iframe>
 
-## Biz space (라이프스타일)
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
 
-<iframe src="net_viz/라이프스타일_tag_network.html" frameborder="0" width="160%" height="1000" scrolling="no" allowfullscreen>
+#Centrality
+library(data.table)
+get_centralities<-function(Graph.object){
+  
+  Net<-Graph.object
+  output<-data.frame(
+    Deg=degree(Net),
+    w.Deg=strength(Net),
+    Btw=betweenness(Net, normalized = T),
+    Eig=eigen_centrality(Net)$vector,
+    Close=closeness(Net)
+  )
+  setDT(output, keep.rownames = TRUE)[]
+  colnames(output)[1]<-"Id"
+  return(output)
+}
 
-</iframe>
 
-## Biz space (모빌리티_자동차_교통)
+data_to_adj_mat <- function(df){
+  
+  df %>% 
+    reshape2::melt(id="corp_id") %>% 
+    arrange(corp_id) %>% 
+    filter(!is.na(value)) %>% 
+    filter(value!="") %>% 
+    reshape2::dcast(corp_id ~ value) -> df_wide
+  
+  temp<-df_wide[c(-1)]
+  temp[is.na(temp)]<-0
+  temp[temp!=0]<-1
+  
+  temp.mat <- as.matrix(temp)
+  temp.mat <- apply(temp.mat, 2, as.numeric)
+  
+  adj.mat <- t(temp.mat) %*% temp.mat
+  return(adj.mat)
+  
+  
+}
+```
 
-<iframe src="net_viz/모빌리티_자동차_교통_tag_network.html" frameborder="0" width="160%" height="1000" scrolling="no" allowfullscreen>
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
 
-</iframe>
+library(igraph)
 
-## Biz space (미디어_엔터테인먼트)
+tag_df %>% 
+  rename(corp_id=CORP_ID) %>% 
+  data_to_adj_mat %>% 
+  graph_from_adjacency_matrix(.,mode = "undirected", 
+                                weighted=T, 
+                                diag = F) -> g
 
-<iframe src="net_viz/미디어_엔터테인먼트_tag_network.html" frameborder="0" width="160%" height="1000" scrolling="no" allowfullscreen>
+vertex_attr(g)$label<-vertex_attr(g)$name
 
-</iframe>
-
-## Biz space (숙박_외식업)
-
-<iframe src="net_viz/숙박_외식업_tag_network.html" frameborder="0" width="160%" height="1000" scrolling="no" allowfullscreen>
-
-</iframe>
-
-## Biz space (의료_바이오_헬스케어)
-
-<iframe src="net_viz/의료_바이오_헬스케어_tag_network.html" frameborder="0" width="160%" height="1000" scrolling="no" allowfullscreen>
-
-</iframe>
-
-## Biz space (전문직)
-
-<iframe src="net_viz/전문직_tag_network.html" frameborder="0" width="160%" height="1000" scrolling="no" allowfullscreen>
-
-</iframe>
-
-## Biz space (커머스_물류)
-
-<iframe src="net_viz/커머스_물류_tag_network.html" frameborder="0" width="160%" height="1000" scrolling="no" allowfullscreen>
-
-</iframe>
-
-## Biz space (환경_에너지)
-
-<iframe src="net_viz/환경_에너지_tag_network.html" frameborder="0" width="160%" height="1000" scrolling="no" allowfullscreen>
-
-</iframe>
+g %>% get_centralities -> tag_centrality
+tag_centrality
+```
 
 ## 디지털 전환 기술 공간에서 태그의 포지션
 
@@ -323,35 +1002,174 @@ boxplot(ven_cap[ven_cap>0 & ven_cap<100])
 
 ![](img/deg_btw.png){fig-align="center"}
 
-## RQs
 
--   **Similarity:** OpenAI API를 활용해서 기업 개요를 임베딩하여 측정한
-    디지털 스타트업들의 Similarity 지표 도출 (기업간 거리)
+## 투자 유치 예측 모델 
 
-    -   Similarity validation
 
-    -   Similarity based clustering
+<hr>
 
--   기업 개요에서 토픽 도출 -\> 토픽별 기업들과 Similarity 기반
-    클러스터링과 비교
+-   그림 삽입 (산업, Biz-Tech, 조직)
 
--   Cog-distance **vs.** Geo-distance: Marshalian vs. ??
 
--   **Tag overlap ratio**: 동일 태그 보유 지표: 공동 태그수 / (i 태그수 + j
-    태그수)
+## 투자 유치 예측 모델 
 
--   **Complexity:** 기업이 보유한 태그의 복잡도 (Unique 한 태그에 대해
-    상대적 비율이 높은지에 대한 지표)
 
--   **Relatedness density:** 기업과 태그의 관련 밀도
+<hr>
 
--   Outcome: Sales, 누적 투자금, 버즈, 트래픽
+-   수식 삽입 (산업, Biz-Tech, 조직)
 
-    -   누적 투자금이 높은 기업들은 무엇이 다른가?
+-   2019-2022년 투자 유치 데이터 활용
 
-    -   한국의 디지털 생태계 진화: 시계열 자료 필요
+-   시기 구분: 
 
-## 
+    -   Phase 1: 2019 ~ 2020 
+    
+    -   Phase 2: 2021 ~ 2022
+
+-   Phase 1을 훈련 데이터셋으로 모델 경쟁
+
+-   Phase 2를 테스트 데이터셋으로 성능 확인
+
+## 투자 유치 예측 모델 
+
+
+<hr>
+
+-   선정 모델: 랜덤 포레스트 
+
+-   성능: 
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+library(caret)
+load("data/rf_fit.RData")
+load("data/corp_long_sample.RData")
+
+corp_long_sample %>% ungroup %>%
+  filter(period == 1) %>% 
+  select(-corp_id, -invested, -period) %>%
+  # filter(log_invested > 0 & log_invested < 3) %>%
+  drop_na() -> train
+
+corp_long_sample %>% ungroup %>%
+  filter(period == 2) %>%
+  select(-corp_id, -invested, -period) %>%
+  # filter(log_invested > 0 & log_invested < 3) %>%
+  drop_na() -> test
+
+library(tidymodels)
+
+train %>% 
+  select(-log_invested) -> train
+test %>% 
+  select(-log_invested) -> test
+
+train %>% 
+  mutate(inv_dum = as.factor(inv_dum)) -> train
+
+test %>% 
+  mutate(inv_dum = as.factor(inv_dum)) -> test
+
+predict(rf_fit, newdata = test) %>% 
+  confusionMatrix(test$inv_dum)
+```
+
+
+
+## DT 생태계 스타트업 투자 유치에 영향을 끼치는 주요 요인
+
+<hr>
+
+**Variable Importance Plot**
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+library(randomForest)
+library(pdp)
+
+varImp(rf_fit, scale = FALSE) %>% 
+  plot
+```
+
+## DT 생태계 스타트업 투자 유치에 영향을 끼치는 주요 요인
+
+<hr>
+
+**Partial Dependence Plot**
+
+
+![](img/partial.png){fig-align="center"}
+
+
+## DT 생태계 스타트업 투자 유치에 영향을 끼치는 주요 요인
+
+<hr>
+
+**Partial Dependence Interaction Plot**
+
+![](img/pdp_1.png){fig-align="center"}
+
+
+## DT 생태계 스타트업 투자 유치에 영향을 끼치는 주요 요인
+
+<hr>
+
+**Partial Dependence Interaction Plot**
+
+
+![](img/pdp_2.png){fig-align="center"}
+
+
+## DT 생태계 스타트업 투자 유치에 영향을 끼치는 주요 요인
+
+<hr>
+
+**Partial Dependence Interaction Plot**
+
+
+![](img/pdp_3.png){fig-align="center"}
+
+## DT 생태계 스타트업 투자 유치에 영향을 끼치는 주요 요인
+
+<hr>
+
+**Partial Dependence Interaction Plot**
+
+
+![](img/pdp_4.png){fig-align="center"}
+
+## DT 생태계 스타트업 투자 유치에 영향을 끼치는 주요 요인
+
+<hr>
+
+**Partial Dependence Interaction Plot**
+
+
+![](img/pdp_5.png){fig-align="center"}
+
+## DT 생태계 스타트업 투자 유치에 영향을 끼치는 주요 요인
+
+<hr>
+
+**Partial Dependence Interaction Plot**
+
+
+
+![](img/pdp_6.png){fig-align="center"}
+
+
+## Discussion
+
+
+
+
+
+
+
 
 ## Finalize this talk
 
