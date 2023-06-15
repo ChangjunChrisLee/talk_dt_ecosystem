@@ -1308,8 +1308,4 @@ You can find this presentation here
 `r fontawesome::fa("home", "black")`
  [changjunlee.com](https://changjunlee.com/){.uri}
 
-![](img/my_avatar.png){.absolute top="370" left="1400" width="500"} <br>
-
-## References
-
-<hr>
+![](img/my_avatar.png){.absolute top="370" left="1400" width="500"}
