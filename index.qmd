@@ -122,6 +122,8 @@ editor:
 
 <hr>
 
+<br>
+
 1.  **다양한 정도의 디지털 성숙도**
 
     -   서로 다른 산업, 심지어 같은 산업 내의 비즈니스도 서로 다른 디지털
@@ -629,7 +631,6 @@ knitr::kable(
 19\. 전문 제조와 공급을 통한 친환경 테크놀로지 산업
 
 20\. 다양한 매체를 통한 콘텐츠 제작 및 영상 스트리밍 산업
-
 :::
 
 ## 산업별 기업 {.scrollable}
@@ -699,18 +700,18 @@ buzz_topic %>%
 
 <hr>
 
--   VC 별로 투자 시점, 투자 round, 투자 분야가 다름 
+-   VC 별로 투자 시점, 투자 round, 투자 분야가 다름
 
 -   돈이 몰릴 때 (투자가 일어날 때) 시장이 형성되는 경우가 많음
 
--   향후 어떤 새로운 시장이 형성될 지에 대해 예측해 보기 위해서 투자가 일어나는 시기를 보고자 함
+-   향후 어떤 새로운 시장이 형성될 지에 대해 예측해 보기 위해서 투자가
+    일어나는 시기를 보고자 함
 
--   SEED (~3억) , Pre-A (5~10억) 단계의 투자는 시장을 키우고 있는 단계
+-   SEED (\~3억) , Pre-A (5\~10억) 단계의 투자는 시장을 키우고 있는 단계
 
 ## 산업별 투자 단계 분포 {.scrollable}
 
 <hr>
-
 
 ```{r}
 #| echo: false
@@ -738,37 +739,42 @@ corp_topic_cat %>%
   labs(x = NULL) + ylab("")
 ```
 
-
 ## 지식구조분석을 통한 산업생태계 `Tech-BM` 융합 분석
 
 <hr>
 
 ### 지식구조 (knowledge Structure)
 
--   지식 구조는 다양한 경제 활동 및 **지리적 위치 내에서 지식의 조직 및 분포**를 나타냄
+-   지식 구조는 다양한 경제 활동 및 **지리적 위치 내에서 지식의 조직 및
+    분포**를 나타냄
 
--   경제의 다양한 부문에서 지식이 어떻게 생성, 공유 및 활용되고 공간적 요인에 의해 어떻게 영향을 받는지 이해하는 것이 포함됨
+-   경제의 다양한 부문에서 지식이 어떻게 생성, 공유 및 활용되고 공간적
+    요인에 의해 어떻게 영향을 받는지 이해하는 것이 포함됨
 
--   근접성, 연결성 및 접근성과 같은 요소를 고려하여 지식 생산, 혁신 및 확산의 공간적 패턴을 조사
+-   근접성, 연결성 및 접근성과 같은 요소를 고려하여 지식 생산, 혁신 및
+    확산의 공간적 패턴을 조사
 
--   지식 클러스터 또는 혁신 허브는 기술 단지 또는 연구 센터와 같이 지식 집약적 활동이 집중되는 특정 지리적 영역에서 나타남
+-   지식 클러스터 또는 혁신 허브는 기술 단지 또는 연구 센터와 같이 지식
+    집약적 활동이 집중되는 특정 지리적 영역에서 나타남
 
--   지식 확산(spillover)은 한 위치 또는 산업에서 생성된 지식이 다른 위치 또는 산업에 이익이 되도록 유출되어 집적 효과로 이어질 때 발생
+-   지식 확산(spillover)은 한 위치 또는 산업에서 생성된 지식이 다른 위치
+    또는 산업에 이익이 되도록 유출되어 집적 효과로 이어질 때 발생
 
--   지식의 지리적 위치는 연구 개발(R&D) 투자, 교육 기관, 숙련된 노동력의 가용성 및 인프라와 같은 요인의 영향을 받는다
+-   지식의 지리적 위치는 연구 개발(R&D) 투자, 교육 기관, 숙련된 노동력의
+    가용성 및 인프라와 같은 요인의 영향을 받는다
 
--   인적 자본, 사회적 네트워크 및 기관을 포함한 지역 및 지역 지식 자산은 지식 기반 산업을 유치하고 유지하는 데 중요한 역할을 함
+-   인적 자본, 사회적 네트워크 및 기관을 포함한 지역 및 지역 지식 자산은
+    지식 기반 산업을 유치하고 유지하는 데 중요한 역할을 함
 
--   지식의 공간적 구성은 지식 집중도가 높은 지역이 지식 집약도가 낮은 지역에 비해 더 큰 경제 발전과 혁신을 경험하는 경향이 있기 때문에 지역적 격차에도 영향을 미침
-
+-   지식의 공간적 구성은 지식 집중도가 높은 지역이 지식 집약도가 낮은
+    지역에 비해 더 큰 경제 발전과 혁신을 경험하는 경향이 있기 때문에 지역적
+    격차에도 영향을 미침
 
 ## 지식구조분석을 통한 산업생태계 `Tech-BM` 융합 분석
 
 <hr>
 
 ![](img/node_edge.png){fig-align="center"}
-
-
 
 ## 지식구조분석을 통한 산업생태계 `Tech-BM` 융합 분석
 
@@ -778,7 +784,7 @@ corp_topic_cat %>%
 
 <br>
 
-### 사업 모델: Business Tag 
+### 사업 모델: Business Tag
 
 > TAG: 사업, 제품, 서비스, 시장 키워드 등
 
@@ -786,7 +792,7 @@ corp_topic_cat %>%
 
 ### 기술: Tech Tag
 
-> TAG: 기술, 전문 영역 키워드 등 
+> TAG: 기술, 전문 영역 키워드 등
 
 <br>
 
@@ -864,7 +870,6 @@ tag_by_topic(2)
 
 ```
 
-
 ## 산업별 태그 구조 분석
 
 <hr>
@@ -879,23 +884,21 @@ tag_by_topic(3)
 
 ```
 
-## 지식 구조의 Edge 영역: `Biz-Tech` space 
+## 지식 구조의 Edge 영역: `Biz-Tech` space
 
 <hr>
 
 ![](img/total_net.png){fig-align="center"}
 
-
-## 지식 구조의 Edge 영역: `Biz-Tech` space 
+## 지식 구조의 Edge 영역: `Biz-Tech` space
 
 <hr>
 
 <iframe src="net_viz/total_tag_network.html" frameborder="0" width="160%" height="1000" scrolling="no" allowfullscreen>
 
-
 </iframe>
 
-## 산업별 `Biz-Tech` space 
+## 산업별 `Biz-Tech` space
 
 <hr>
 
@@ -905,30 +908,39 @@ tag_by_topic(3)
 
 </iframe>
 
-## 산업별 `Biz-Tech` space 
+## 산업별 `Biz-Tech` space
 
 <hr>
 
 **패션, 뷰티 및 헬스 중심의 디지털 콘텐츠 및 정보 시스템 산업**
 
 <iframe src="net_viz/topic_9_tag_network.html" frameborder="0" width="160%" height="1000" scrolling="no" allowfullscreen>
-</iframe>
 
+</iframe>
 
 ## `Biz-Tech` space 에서 연결, 가중연결, 매개, 위세, 근접 중심성 {.scrollable}
 
 <hr>
 
--   **연결 (Degree)**: 그래프에서 한 노드가 직접적으로 연결된 다른 노드의 수: 그래프에서 해당 노드의 중요성을 간접적으로 나타낼 수 있음
+-   **연결 (Degree)**: 그래프에서 한 노드가 직접적으로 연결된 다른 노드의
+    수: 그래프에서 해당 노드의 중요성을 간접적으로 나타낼 수 있음
 
--   **가중연결 (Weighted Degree)**: 가중 그래프에서 노드의 가중연결은 연결된 간선의 가중치의 합을 나타냄: 간선의 '강도' 또는 '중요성'을 고려한 노드의 연결 정도
+-   **가중연결 (Weighted Degree)**: 가중 그래프에서 노드의 가중연결은
+    연결된 간선의 가중치의 합을 나타냄: 간선의 '강도' 또는 '중요성'을
+    고려한 노드의 연결 정도
 
--   **매개 중심성 (Betweenness Centrality)**: 그래프 내의 모든 노드 쌍 간의 최단 경로에 얼마나 자주 등장하는지를 나타냄: 높은 매개 중심성을 가진 노드는 정보의 흐름에 있어 '다리' 역할
+-   **매개 중심성 (Betweenness Centrality)**: 그래프 내의 모든 노드 쌍 간의
+    최단 경로에 얼마나 자주 등장하는지를 나타냄: 높은 매개 중심성을 가진
+    노드는 정보의 흐름에 있어 '다리' 역할
 
--   **위세 중심성 (Eigenvector Centrality)**: 노드의 위세 중심성은 해당 노드에 직접적으로 연결된 다른 노드들의 중요성을 함께 고려한 것: 중요한 노드들과 많이 연결된 노드가 더 높은 위세 중심성을 가짐
+-   **위세 중심성 (Eigenvector Centrality)**: 노드의 위세 중심성은 해당
+    노드에 직접적으로 연결된 다른 노드들의 중요성을 함께 고려한 것: 중요한
+    노드들과 많이 연결된 노드가 더 높은 위세 중심성을 가짐
 
--   **근접 중심성 (Closeness Centrality)**: 노드의 근접 중심성은 해당 노드가 그래프 내의 다른 모든 노드에 얼마나 '가깝게' 위치해 있는지를 나타냄: 여기서 '가깝다'는 것은 노드 간의 경로 길이를 의미하며, 즉 노드 간의 거리가 짧을수록 높은 근접 중심성을 가집니다.
-
+-   **근접 중심성 (Closeness Centrality)**: 노드의 근접 중심성은 해당
+    노드가 그래프 내의 다른 모든 노드에 얼마나 '가깝게' 위치해 있는지를
+    나타냄: 여기서 '가깝다'는 것은 노드 간의 경로 길이를 의미하며, 즉 노드
+    간의 거리가 짧을수록 높은 근접 중심성을 가집니다.
 
 ```{r}
 #| echo: false
@@ -1002,47 +1014,75 @@ tag_centrality
 
 ![](img/deg_btw.png){fig-align="center"}
 
-
-## 투자 유치 예측 모델 
-
+## 투자 유치 예측 모델
 
 <hr>
 
--   그림 삽입 (산업, Biz-Tech, 조직)
+![](img/3_dims.png){fig-align="center"}
 
-
-## 투자 유치 예측 모델 
-
+## 투자 유치 예측 모델 {.scrollable}
 
 <hr>
 
--   수식 삽입 (산업, Biz-Tech, 조직)
+-   2019-2022년 4년간 투자 유치 데이터 활용
 
--   2019-2022년 투자 유치 데이터 활용
+    -   Phase 1: 2019 \~ 2020 as a train data set
 
--   시기 구분: 
+    -   Phase 2: 2021 \~ 2022 as a test dats set
 
-    -   Phase 1: 2019 ~ 2020 
-    
-    -   Phase 2: 2021 ~ 2022
+-   **Invest Forecasting Model**
 
--   Phase 1을 훈련 데이터셋으로 모델 경쟁
+$$
+Invested_{i,t} = f(Industry_{i}, BizTech_{i}, Org_{i,t})
+$$
 
--   Phase 2를 테스트 데이터셋으로 성능 확인
+> *i* and *j* refers to each firm and each period
 
-## 투자 유치 예측 모델 
+$$
+Industry_{i} = \sum_{j=1}^k \beta_i \gamma_i
+$$
 
+> *k* is the number of topics (industries). k = 20 in this study.
+
+$$
+BizTech_{i} = \beta_1 Deg_{i}+\beta_2 w.Deg_{i}+ \beta_3 Btw_{i} + \beta_4 Eig_{i} + \beta_5 Close_{i}
+$$
+
+$$
+Deg_{i} = \frac{1}{l} \sum_{j=1}^l Deg_{i,j}
+$$
+
+> *j* refers to each tag in firm *i* and *l* is the number of tags in firm
+> *i*
+
+$$
+Org_{i,t}=\beta_1 emp_{i,t} + \beta_2 InRatio_{i,t} + \beta_3 OutRatio_{i,t} + \beta_4 LogOddsRatio_{i,t} 
+$$
+
+$$
+LogOddsRatio_{i,t} = ln(\frac{InRatio_{i,t}}{OutRatio_{i,t}})
+$$
+
+## 투자 유치 예측 모델
 
 <hr>
 
--   선정 모델: 랜덤 포레스트 
+-   선정 모델: 랜덤 포레스트
 
--   성능: 
+-   **Performance** test with test dataset \[2021-2022\]
+
+    -   Accuracy: 71.23 %
+
+    -   Precision: 64.55 % : 투자 예측 성공률
+
+<br>
 
 ```{r}
 #| echo: false
 #| message: false
 #| warning: false
+#| results: markup
+
 library(caret)
 load("data/rf_fit.RData")
 load("data/corp_long_sample.RData")
@@ -1076,8 +1116,6 @@ predict(rf_fit, newdata = test) %>%
   confusionMatrix(test$inv_dum)
 ```
 
-
-
 ## DT 생태계 스타트업 투자 유치에 영향을 끼치는 주요 요인
 
 <hr>
@@ -1101,9 +1139,7 @@ varImp(rf_fit, scale = FALSE) %>%
 
 **Partial Dependence Plot**
 
-
 ![](img/partial.png){fig-align="center"}
-
 
 ## DT 생태계 스타트업 투자 유치에 영향을 끼치는 주요 요인
 
@@ -1113,23 +1149,19 @@ varImp(rf_fit, scale = FALSE) %>%
 
 ![](img/pdp_1.png){fig-align="center"}
 
-
 ## DT 생태계 스타트업 투자 유치에 영향을 끼치는 주요 요인
 
 <hr>
 
 **Partial Dependence Interaction Plot**
-
 
 ![](img/pdp_2.png){fig-align="center"}
 
-
 ## DT 생태계 스타트업 투자 유치에 영향을 끼치는 주요 요인
 
 <hr>
 
 **Partial Dependence Interaction Plot**
-
 
 ![](img/pdp_3.png){fig-align="center"}
 
@@ -1139,7 +1171,6 @@ varImp(rf_fit, scale = FALSE) %>%
 
 **Partial Dependence Interaction Plot**
 
-
 ![](img/pdp_4.png){fig-align="center"}
 
 ## DT 생태계 스타트업 투자 유치에 영향을 끼치는 주요 요인
@@ -1147,7 +1178,6 @@ varImp(rf_fit, scale = FALSE) %>%
 <hr>
 
 **Partial Dependence Interaction Plot**
-
 
 ![](img/pdp_5.png){fig-align="center"}
 
@@ -1157,19 +1187,97 @@ varImp(rf_fit, scale = FALSE) %>%
 
 **Partial Dependence Interaction Plot**
 
-
-
 ![](img/pdp_6.png){fig-align="center"}
 
+## Discussion 
+
+<hr>
+
+-   **디지털 트랜스포메이션**이라는 추상적인 개념의 등장
+
+    -   기존 산업 분류 틀에 맞추지 못하는 문제
+
+    -   기술 융합 분석을 위해 제조업과 같이 특허 분석으로 할 수 없는 문제
+
+<br>
+
+-   **토픽 모델링**을 활용하여 새로운 산업 생태계 안에서 산업 분류를 시도
+
+    -   기존의 틀에서 벗어난 [기술과 사업 모델들의 융합을
+        클러스터링]{.underline} 시도
+
+    -   ML과 Generative AI로 이어지는 [사업 분류 과정의 자동화]{.underline}
+        시도
+
+    -   새로운 산업 생태계 분석에 실제로 효과적임
+
+    -   사업별 태그, 투자, 버즈 분석 등이 가능했음
 
 ## Discussion
 
+<hr>
 
+-   DT 생태계 분석
 
+    -   유저들이 가장 많이 찾은 영역 (Buzz)
 
+        -   인공지능 및 IOT 기반 교육과 유통 콘텐츠 시스템
 
+        -   헬스케어, 식품, 화장품 커머스 및 기술 서비스 산업
 
+    -   ***Seed*** 단계에서 투자 활발한 영역 (돈이 몰리는 영역)
 
+        -   디지털 이커머스, 반려동물 관리, IOT 제조 및 부동산 중개
+            스타트업
+
+        -   스마트 제조 기술과 인공지능 활용의 판매 및 전기 인프라 산업
+
+    -   ***Pre-A*** 단계 (시장 확장 영역)
+
+        -   모바엘 게임과 VR을 활용한 맞춤형 미디어 및 공간 기획 산업
+
+        -   다양한 매체를 통한 콘텐츠 제작 및 영상 스트리밍 산업
+
+## Discussion
+
+<hr>
+
+-   DT 생태계의 **지식 구조 분석**
+
+    -   '혁신의숲' 벤처 기업 정보 플랫폼에서 제공한 데이터를 통해 419개의
+        고유한 태그(기술/사업/상품/서비스)들이 어떻게 동시 출현하고 있는
+        지를 분석해서 기술 간의 연관도를 도출할 수 있었음
+
+    -   이러한 연관도 정보를 바탕으로 디지털 전환 기술 벤처 생태계의 기술
+        공간(technology space)을 시각화
+
+    -   기술 공간 안에서 각 노드(태그 또는 기술)들의 포지션을 통해 디지털
+        전환 기술 공간에서 어떤 세부 기술이 다른 기술들과 융합하여 새로운
+        기술을 만들어 내는지, 다른 기술 그룹들을 매개하는지, 여러 기술
+        그룹에 붙어 응용되고 있는지 등을 알 수 있었음.
+
+    -   토픽 모델링으로 분류된 산업별로 기술 공간을 따로 만들고 그 안에서
+        기술들의 포지션 또한 분석이 가능하다는 것을 확인
+
+## Discussion
+
+<hr>
+
+-   투자 유치 예측 모델 개발
+
+    -   산업, Biz-Tech 융합, 조직: 3가지 관점에 대한 Framework 도출
+
+    -   T 시기로 훈련한여 T+1 시기에서 테스트한 결과, 70%가 넘는 정확도와
+        65%의 투자 성공율의 성과
+
+-   투자 유치 예측에 영향을 끼치는 주요 요인들
+
+    -   **조직 \> 융합 \> 산업**
+
+    -   조직의 다이내믹스가 투자를 결정하는 좋은 시그널이 될 수 있음을 확인
+
+    -   Biz-Tech 융합의 포지션 중 기업이 보유한 태그의 매개, 연결, 근접
+        중심성 역시 투자를 결정하는 결정적 요인이 될 수 있음
 
 ## Finalize this talk
 
@@ -1181,7 +1289,7 @@ varImp(rf_fit, scale = FALSE) %>%
 
 You can find this presentation here
 
--   <https://changjunlee.com/blogs/posts/9_ott_strategy_talk.html/>
+-   <https://changjunlee.com/blogs/posts/11_dt_ecosystem.html/>
 
 <br>
 

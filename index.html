@@ -394,6 +394,7 @@
 </li>
 </ul></section><section id="why-is-dt-industry-classification-difficult" class="slide level2"><h2>Why is DT Industry Classification Difficult?</h2>
 <hr>
+<p><br></p>
 <ol type="1">
 <li>
 <p><strong>다양한 정도의 디지털 성숙도</strong></p>
@@ -1142,28 +1143,59 @@ w_{di} \sim Multinomial(β_{z_{di}})
 
 <img data-src="img/deg_btw.png" class="r-stretch quarto-figure-center"></section><section id="투자-유치-예측-모델" class="slide level2"><h2>투자 유치 예측 모델</h2>
 <hr>
-<ul>
-<li>그림 삽입 (산업, Biz-Tech, 조직)</li>
-</ul></section><section id="투자-유치-예측-모델-1" class="slide level2"><h2>투자 유치 예측 모델</h2>
+
+<img data-src="img/3_dims.png" class="r-stretch quarto-figure-center"></section><section id="투자-유치-예측-모델-1" class="slide level2 scrollable"><h2>투자 유치 예측 모델</h2>
 <hr>
 <ul>
-<li><p>수식 삽입 (산업, Biz-Tech, 조직)</p></li>
-<li><p>2019-2022년 투자 유치 데이터 활용</p></li>
 <li>
-<p>시기 구분:</p>
+<p>2019-2022년 4년간 투자 유치 데이터 활용</p>
 <ul>
-<li><p>Phase 1: 2019 ~ 2020</p></li>
-<li><p>Phase 2: 2021 ~ 2022</p></li>
+<li><p>Phase 1: 2019 ~ 2020 as a train data set</p></li>
+<li><p>Phase 2: 2021 ~ 2022 as a test dats set</p></li>
 </ul>
 </li>
-<li><p>Phase 1을 훈련 데이터셋으로 모델 경쟁</p></li>
-<li><p>Phase 2를 테스트 데이터셋으로 성능 확인</p></li>
-</ul></section><section id="투자-유치-예측-모델-2" class="slide level2"><h2>투자 유치 예측 모델</h2>
+<li><p><strong>Invest Forecasting Model</strong></p></li>
+</ul>
+<p><span class="math display">\[
+Invested_{i,t} = f(Industry_{i}, BizTech_{i}, Org_{i,t})
+\]</span></p>
+<blockquote>
+<p><em>i</em> and <em>j</em> refers to each firm and each period</p>
+</blockquote>
+<p><span class="math display">\[
+Industry_{i} = \sum_{j=1}^k \beta_i \gamma_i
+\]</span></p>
+<blockquote>
+<p><em>k</em> is the number of topics (industries). k = 20 in this study.</p>
+</blockquote>
+<p><span class="math display">\[
+BizTech_{i} = \beta_1 Deg_{i}+\beta_2 w.Deg_{i}+ \beta_3 Btw_{i} + \beta_4 Eig_{i} + \beta_5 Close_{i}
+\]</span></p>
+<p><span class="math display">\[
+Deg_{i} = \frac{1}{l} \sum_{j=1}^l Deg_{i,j}
+\]</span></p>
+<blockquote>
+<p><em>j</em> refers to each tag in firm <em>i</em> and <em>l</em> is the number of tags in firm <em>i</em></p>
+</blockquote>
+<p><span class="math display">\[
+Org_{i,t}=\beta_1 emp_{i,t} + \beta_2 InRatio_{i,t} + \beta_3 OutRatio_{i,t} + \beta_4 LogOddsRatio_{i,t}
+\]</span></p>
+<p><span class="math display">\[
+LogOddsRatio_{i,t} = ln(\frac{InRatio_{i,t}}{OutRatio_{i,t}})
+\]</span></p>
+</section><section id="투자-유치-예측-모델-2" class="slide level2"><h2>투자 유치 예측 모델</h2>
 <hr>
 <ul>
 <li><p>선정 모델: 랜덤 포레스트</p></li>
-<li><p>성능:</p></li>
+<li>
+<p><strong>Performance</strong> test with test dataset [2021-2022]</p>
+<ul>
+<li><p>Accuracy: 71.23 %</p></li>
+<li><p>Precision: 64.55 % : 투자 예측 성공률</p></li>
 </ul>
+</li>
+</ul>
+<p><br></p>
 <div class="cell">
 <div class="cell-output cell-output-stdout">
 <pre><code>Confusion Matrix and Statistics
@@ -1228,13 +1260,93 @@ Prediction    0    1
 <p><strong>Partial Dependence Interaction Plot</strong></p>
 
 <img data-src="img/pdp_6.png" class="r-stretch quarto-figure-center"></section><section id="discussion" class="slide level2"><h2>Discussion</h2>
-</section><section id="finalize-this-talk" class="slide level2"><h2>Finalize this talk</h2>
+<hr>
+<ul>
+<li>
+<p><strong>디지털 트랜스포메이션</strong>이라는 추상적인 개념의 등장</p>
+<ul>
+<li><p>기존 산업 분류 틀에 맞추지 못하는 문제</p></li>
+<li><p>기술 융합 분석을 위해 제조업과 같이 특허 분석으로 할 수 없는 문제</p></li>
+</ul>
+</li>
+</ul>
+<p><br></p>
+<ul>
+<li>
+<p><strong>토픽 모델링</strong>을 활용하여 새로운 산업 생태계 안에서 산업 분류를 시도</p>
+<ul>
+<li><p>기존의 틀에서 벗어난 <u>기술과 사업 모델들의 융합을 클러스터링</u> 시도</p></li>
+<li><p>ML과 Generative AI로 이어지는 <u>사업 분류 과정의 자동화</u> 시도</p></li>
+<li><p>새로운 산업 생태계 분석에 실제로 효과적임</p></li>
+<li><p>사업별 태그, 투자, 버즈 분석 등이 가능했음</p></li>
+</ul>
+</li>
+</ul></section><section id="discussion-1" class="slide level2"><h2>Discussion</h2>
+<hr>
+<ul>
+<li>
+<p>DT 생태계 분석</p>
+<ul>
+<li>
+<p>유저들이 가장 많이 찾은 영역 (Buzz)</p>
+<ul>
+<li><p>인공지능 및 IOT 기반 교육과 유통 콘텐츠 시스템</p></li>
+<li><p>헬스케어, 식품, 화장품 커머스 및 기술 서비스 산업</p></li>
+</ul>
+</li>
+<li>
+<p><strong><em>Seed</em></strong> 단계에서 투자 활발한 영역 (돈이 몰리는 영역)</p>
+<ul>
+<li><p>디지털 이커머스, 반려동물 관리, IOT 제조 및 부동산 중개 스타트업</p></li>
+<li><p>스마트 제조 기술과 인공지능 활용의 판매 및 전기 인프라 산업</p></li>
+</ul>
+</li>
+<li>
+<p><strong><em>Pre-A</em></strong> 단계 (시장 확장 영역)</p>
+<ul>
+<li><p>모바엘 게임과 VR을 활용한 맞춤형 미디어 및 공간 기획 산업</p></li>
+<li><p>다양한 매체를 통한 콘텐츠 제작 및 영상 스트리밍 산업</p></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul></section><section id="discussion-2" class="slide level2"><h2>Discussion</h2>
+<hr>
+<ul>
+<li>
+<p>DT 생태계의 <strong>지식 구조 분석</strong></p>
+<ul>
+<li><p>‘혁신의숲’ 벤처 기업 정보 플랫폼에서 제공한 데이터를 통해 419개의 고유한 태그(기술/사업/상품/서비스)들이 어떻게 동시 출현하고 있는 지를 분석해서 기술 간의 연관도를 도출할 수 있었음</p></li>
+<li><p>이러한 연관도 정보를 바탕으로 디지털 전환 기술 벤처 생태계의 기술 공간(technology space)을 시각화</p></li>
+<li><p>기술 공간 안에서 각 노드(태그 또는 기술)들의 포지션을 통해 디지털 전환 기술 공간에서 어떤 세부 기술이 다른 기술들과 융합하여 새로운 기술을 만들어 내는지, 다른 기술 그룹들을 매개하는지, 여러 기술 그룹에 붙어 응용되고 있는지 등을 알 수 있었음.</p></li>
+<li><p>토픽 모델링으로 분류된 산업별로 기술 공간을 따로 만들고 그 안에서 기술들의 포지션 또한 분석이 가능하다는 것을 확인</p></li>
+</ul>
+</li>
+</ul></section><section id="discussion-3" class="slide level2"><h2>Discussion</h2>
+<hr>
+<ul>
+<li>
+<p>투자 유치 예측 모델 개발</p>
+<ul>
+<li><p>산업, Biz-Tech 융합, 조직: 3가지 관점에 대한 Framework 도출</p></li>
+<li><p>T 시기로 훈련한여 T+1 시기에서 테스트한 결과, 70%가 넘는 정확도와 65%의 투자 성공율의 성과</p></li>
+</ul>
+</li>
+<li>
+<p>투자 유치 예측에 영향을 끼치는 주요 요인들</p>
+<ul>
+<li><p><strong>조직 &gt; 융합 &gt; 산업</strong></p></li>
+<li><p>조직의 다이내믹스가 투자를 결정하는 좋은 시그널이 될 수 있음을 확인</p></li>
+<li><p>Biz-Tech 융합의 포지션 중 기업이 보유한 태그의 매개, 연결, 근접 중심성 역시 투자를 결정하는 결정적 요인이 될 수 있음</p></li>
+</ul>
+</li>
+</ul></section><section id="finalize-this-talk" class="slide level2"><h2>Finalize this talk</h2>
 <p><br></p>
 <h3 id="thanks-for-your-attention">Thanks for your attention</h3>
 <p><br></p>
 <p>You can find this presentation here</p>
 <ul>
-<li><a href="https://changjunlee.com/blogs/posts/9_ott_strategy_talk.html/" class="uri">https://changjunlee.com/blogs/posts/9_ott_strategy_talk.html/</a></li>
+<li><a href="https://changjunlee.com/blogs/posts/11_dt_ecosystem.html/" class="uri">https://changjunlee.com/blogs/posts/11_dt_ecosystem.html/</a></li>
 </ul>
 <p><br></p>
 <h3 id="any-questions-suggestions">Any questions &amp; suggestions?</h3>
