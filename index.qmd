@@ -103,8 +103,9 @@ editor:
     일부 분야, 일부 기업들을 시작으로 **서비스 산업에서도 다양한 DT
     시도**들이 진행
 
-    -   다양한 서비스 분야에서 디지털 기술을 접목하기 위한 기술기반
-        기업들이 등장하며 디지털화가 진행
+    -   다양한 서비스 분야에서 디지털 기술을 접목하기 위한 [기술기반
+        기업들이 등장하며 디지털화가 진행]{.underline} (무신사,
+        매스프레소(콴다), 버킷플레이스(오늘의집) 등)
 
     -   디지털 기술의 접목으로 데이터가 수집, 축적되며 서비스 방식이
         변화하고 새로운 가능성도 열리고 있음
@@ -114,27 +115,25 @@ editor:
 -   디지털 대전환을 우리의 기회로 활용하기 위해 **서비스 산업의 디지털 전환
     현황을 진단하고 이를 촉진하기 위한 연구가 필요**
 
-    -   DT는 주로 스타트업 생태계 내에서 새로운 비즈니스 모델을 통한 혁신이
-        많이 일어나는 분야이기 때문에 스타트업 생태계 다이내믹스에 대한
-        분석이 필요함
+    -   DT는 주로 [스타트업 생태계 내에서 새로운 비즈니스 모델을 통한
+        혁신]{.underline}이 많이 일어나는 분야이기 때문에 [스타트업 생태계
+        다이내믹스에 대한 분석이 필요]{.underline}함
 
 ## Why is DT Industry Classification Difficult?
 
 <hr>
 
-<br>
-
 1.  **다양한 정도의 디지털 성숙도**
 
     -   서로 다른 산업, 심지어 같은 산업 내의 비즈니스도 서로 다른 디지털
-        성숙도 단계로 존재.
+        성숙도 단계로 존재 (e.g. 금융, 제조, 소매, 의료 등)
 
     -   획일적인 분류 시스템(one-size-fits-all classification)은 이러한
         변형을 잘못 나타낼 가능성이 있음.
 
 2.  **기술의 급속한 발전**
 
-    -   디지털 환경은 빠르게 변화.
+    -   디지털 환경은 빠르게 변화 (최근 AI 급물결)
 
     -   기술 혁신은 디지털 변환의 특성과 범위를 지속적으로 변경하여 고정된
         분류 시스템을 빠르게 도태시킴.
@@ -142,11 +141,14 @@ editor:
 3.  **다른 DT 접근 방식**
 
     -   같은 산업에 속한 회사들도 DT에 대한 접근 방식이 크게 다를 수 있음.
+    -   e.g.) 금융에서 대면 서비스를 더욱 강조, 고객 경험 개선을 위해 AI를
+        도입 **vs.** 블록체인 도입으로 결제 시스템 또는 자산 관리 방식 혁신
 
 4.  **고유한 비즈니스 모델**
 
     -   디지털 혁신은 전통적인 산업 분류를 거부하는 새롭고 고유한 비즈니스
         모델을 지속적으로 탄생시킴(Mutation).
+    -   e.g.) Mobility (or Housing) sharing
 
 ## Research Goal
 
@@ -156,17 +158,17 @@ editor:
 
 -   **디지털 트랜스포메이션 생태계 분석을 위한 프레임 개발**
 
-    -   산업: 디지털 트랜스포메이션 산업 구분
+    -   **산업:** 디지털 트랜스포메이션 산업 구분
 
-    -   기술 융합: 디지털 트랜스포메이션 비즈니스 모델과 기술의 융합 추이
-        분석
+    -   **기술 융합:** 디지털 트랜스포메이션 비즈니스 모델과 기술의 융합
+        추이 분석
 
-    -   조직: 디지털 트랜스포메이션 기업의 조직 다이내믹스 분석
+    -   **조직:** 디지털 트랜스포메이션 기업의 조직 다이내믹스 분석
 
 <br>
 
--   **산업, 기술 융합, 조직의 세 가지 프레임을 활용한 투자 유치 예측 모델
-    개발**
+-   **산업, 기술 융합, 조직**의 **세 가지 프레임**을 활용한 **투자 유치
+    예측 모델 개발**
 
     -   투자 유치 예측 모델 비교 및 성능 평가
 
@@ -192,10 +194,12 @@ editor:
 
 -   혁신의숲([www.innoforest.co.kr](https://www.innoforest.co.kr/))
 
-    -   스타트업들의 사업과 기술 등을 분석하여 투자자와 소비자들에게 정보를
-        제공하는 서비스를 제공
+    -   디지털 혁신 스타트업들의 사업과 기술 등을 분석하여 투자자와
+        소비자들에게 정보를 제공하는 서비스를 제공
 
-    -   4,709개의 기업에 대한 데이터 (May 2022)
+    -   모델이 되었던 미국의 ([dealroom.co](https://dealroom.co))
+
+    -   **4,709개**의 기업에 대한 데이터 (May 2022) 를 받아 분석을 진행
 
 -   혁신의숲 DB 중 제공 정보 목록
 
@@ -270,6 +274,14 @@ editor:
 
 <hr>
 
+-   e.g) 클래스101
+
+![](img/tag_eg.png){fig-align="center"}
+
+## 사업 태그 분포
+
+<hr>
+
 ![](img/tab_tree.png){fig-align="center"}
 
 ## 누적 투자 유치 금액
@@ -310,7 +322,7 @@ boxplot(ven_cap[ven_cap>0 & ven_cap<100])
 
 <br>
 
-### 2. `사업기술융합`: 디지털 트랜스포메이션 비즈니스 모델과 기술의 융합 추이 분석
+### 2. `기술사업융합`: 디지털 트랜스포메이션 비즈니스 모델과 기술의 융합 추이 분석
 
 <br>
 
@@ -322,8 +334,8 @@ boxplot(ven_cap[ven_cap>0 & ven_cap<100])
 
 **Topic modelling**
 
-> 문서 모음에서 발생하는 추상적인 "주제"를 발견하기 위한 일종의 통계적
-> 모델링
+> 문서 모음에서 발생하는 추상적인 ["주제"를 발견하기 위한]{.underline}
+> 일종의 [통계적 모델링]{.underline}
 
 <br>
 
@@ -354,22 +366,24 @@ boxplot(ven_cap[ven_cap>0 & ven_cap<100])
 
 The LDA model aims to find:
 
--   **Document to topic distributions**: How likely each topic is for each
+-   **Document to Topic distributions**: How likely each topic is for each
     document.
 
--   **Word to topic distributions**: How likely each word is for each
+-   **Topic to Word distributions**: How likely each word is for each
     topic.
 
 <br>
 
 Mathematically, these distributions can be represented as follows:
 
--   **Document to topic distribution**: For each document $d$, there's a
+-   **Document to Topic distribution**: For each document $d$, there's a
     multinomial distribution over topics $θ_d$.
 
 $$
 θ_d \sim Dirichlet(α)
-$$ \> Here, $α$ is a K-dimensional vector, where K is the number of topics.
+$$
+
+> Here, $α$ is a K-dimensional vector, where K is the number of topics.
 
 $$
 θ_d \sim \beta_1 Topic_1 + \beta_2 Topic_2 + ... + \beta_k Topic_k
@@ -377,7 +391,7 @@ $$
 
 <br>
 
--   **Word to topic distribution**: For each topic $k$, there's a
+-   **Topic to Word distribution**: For each topic $k$, there's a
     multinomial distribution over words $β_k$.
 
 $$
@@ -581,6 +595,8 @@ knitr::kable(
 -   후보군으로 제시된 산업 이름 중 가장 적합한 것을 고르고 연구자 주관으로
     수정
 
+***Prompt template***
+
 > 아래 대표 기업들의 상세 설명을 대표할 수 있는 산업의 이름으로
 > 요약하시오. - 이때 산업별 키워드 X1, X2, X3, .. ,X10 를 활용하여 산업
 > 이름을 만드시오. - 산업 이름 후보로 5개 만드시오. - 대표 기업 30개의 상세
@@ -702,7 +718,7 @@ buzz_topic %>%
 
 -   VC 별로 투자 시점, 투자 round, 투자 분야가 다름
 
--   돈이 몰릴 때 (투자가 일어날 때) 시장이 형성되는 경우가 많음
+-   돈이 몰릴 때 (투자가 일어날 때) 새로운 시장이 형성되고 동반 성장
 
 -   향후 어떤 새로운 시장이 형성될 지에 대해 예측해 보기 위해서 투자가
     일어나는 시기를 보고자 함
@@ -770,17 +786,25 @@ corp_topic_cat %>%
     지역에 비해 더 큰 경제 발전과 혁신을 경험하는 경향이 있기 때문에 지역적
     격차에도 영향을 미침
 
-## 지식구조분석을 통한 산업생태계 `Tech-BM` 융합 분석
+## 지식공간
 
 <hr>
 
 ![](img/node_edge.png){fig-align="center"}
+
+## 지식공간
+
+<hr>
+
+![](img/tech_evo.png){fig-align="center"}
 
 ## 지식구조분석을 통한 산업생태계 `Tech-BM` 융합 분석
 
 <hr>
 
 > 지식 구조 = 태그 구조
+>
+> 태그 컴포넌트: Business Model, Categories, Technologies
 
 <br>
 
@@ -1026,9 +1050,11 @@ tag_centrality
 
 -   2019-2022년 4년간 투자 유치 데이터 활용
 
-    -   Phase 1: 2019 \~ 2020 as a train data set
+    -   ***Phase 1:*** 2019 \~ 2020 as a **Train** data set
 
-    -   Phase 2: 2021 \~ 2022 as a test dats set
+    -   ***Phase 2:*** 2021 \~ 2022 as a **Test** data set
+
+-   예측 변수: t 시기 i 기업의 투자 유치 더미 변수
 
 -   **Invest Forecasting Model**
 
@@ -1067,13 +1093,17 @@ $$
 
 <hr>
 
--   선정 모델: 랜덤 포레스트
+-   **경쟁 모델:** SVM, 랜덤포레스트, Ada-boost
 
--   **Performance** test with test dataset \[2021-2022\]
+    -   설명 가능한 ML (NN 등 제외)
 
-    -   Accuracy: 71.23 %
+-   **선정 모델:** 랜덤 포레스트
 
-    -   Precision: 64.55 % : 투자 예측 성공률
+-   **Performance** test with test data set \[2021-2022\]
+
+    -   Accuracy: **71.23 %**
+
+    -   Precision: **64.55 %** : 투자 예측 성공률
 
 <br>
 
@@ -1189,7 +1219,7 @@ varImp(rf_fit, scale = FALSE) %>%
 
 ![](img/pdp_6.png){fig-align="center"}
 
-## Discussion 
+## Discussion
 
 <hr>
 
@@ -1267,17 +1297,44 @@ varImp(rf_fit, scale = FALSE) %>%
 
     -   산업, Biz-Tech 융합, 조직: 3가지 관점에 대한 Framework 도출
 
-    -   T 시기로 훈련한여 T+1 시기에서 테스트한 결과, 70%가 넘는 정확도와
-        65%의 투자 성공율의 성과
+    -   T 시기로 훈련한여 T+1 시기에서 테스트한 결과, [70%가 넘는 정확도와
+        65%의 투자 성공율]{.underline}의 성과
 
 -   투자 유치 예측에 영향을 끼치는 주요 요인들
 
     -   **조직 \> 융합 \> 산업**
 
-    -   조직의 다이내믹스가 투자를 결정하는 좋은 시그널이 될 수 있음을 확인
+    -   [조직의 다이내믹스가 투자를 결정하는 좋은 시그널]{.underline}이 될
+        수 있음을 확인
 
-    -   Biz-Tech 융합의 포지션 중 기업이 보유한 태그의 매개, 연결, 근접
-        중심성 역시 투자를 결정하는 결정적 요인이 될 수 있음
+    -   Biz-Tech 융합의 포지션 중 [기업이 보유한 태그의 매개, 연결, 근접
+        중심성]{.underline} 역시 투자를 결정하는 결정적 요인이 될 수 있음
+
+-   투자 시점
+
+    -   3\~4 명의 고용인원에서 +1 또는 +2가 되는 시기
+
+    -   또는 조직의 in_ratio 가 out_ratio 보다 살짝 높은 시기
+
+    -   그와 동시에 보유한 태그의 매개, 가중, 근접 중심도가 높은 기업
+
+## Future study
+
+<hr>
+
+-   산업 분류
+
+    -   토픽 모델과 전통 분류 방법의 비교
+
+-   기술-Tech 융합 부분
+
+    -   중심성의 의미에 대한 연구
+
+    -   더 구체적으로 투자 요인에 끼치는 요인을 측정 할 수 있는 방법 모색
+
+-   조직 요인
+
+    -   in & out dynamics 에 대한 이론적 논의
 
 ## Finalize this talk
 
